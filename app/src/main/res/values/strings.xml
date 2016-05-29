@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Counter</string>
+    <string name="PlayerNameInputHint">enter player name</string>
+    <string name="PlayerNameEnterText">add player entered above</string>
+    <string name="RoundsToReachText">game finishes after given number of rounds</string>
+    <string name="PointsToReachText">game finishes after given number of points</string>
+    <string name="PointsInputHint">enter points players need to reach</string>
+    <string name="RoundsInputHint">enter rounds players need to reach</string>
+    <string name="CountToZeroHint">enter points where players start</string>
+    <string name="AllNeedToFinishText">if checked all players need to reach the points</string>
+    <string name="CountToZero">if checked game counts from given value to 0</string>
+    <string name="StartGameText">start game</string>
+    <string name="PlayersHeadline">Players: (disable switch to delete player, enable to put back)</string>
+    <string name="EnterPointsString">confirm points entered above</string>
+    <string name="UndoLastInput">undo last input</string>
+    <string name="CalculatePositionsString">calculate positions</string>
+    <string name="PlayerMustPlay">must play</string>
+    <string name="PlayerIsNotAllowedToSwitchCards">no changing</string>
+    <string name="NameTooLongError">please only enter up to 10 characters for the name</string>
+    <string name="NameDuplicateError">input a player, which hasn\'t be entered yet</string>
+    <string name="NotEnoughPlayersError">please add at least one player</string>
+    <string name="NumberInputError">please enter a positive goal number</string>
+    <!--suppress CheckTagEmptyBody -->
+    <string name="EmptyString" translatable="false"></string>
+    <string name="EnterPointsBeginning">enter points of\u0020</string>
+    <string name="NewLine" translatable="false">\n</string>
+    <string name="PointsBeginning">Points:\u0020</string>
+    <string name="PointsReceived">points received:\n(newest first)</string>
+    <string name="Finished">finished</string>
+    <string name="GameFinished">game is finished</string>
+    <string name="CustomGame">custom game</string>
+    <string name="GameOne_20ab" translatable="false">20 ab</string>
+</resources>

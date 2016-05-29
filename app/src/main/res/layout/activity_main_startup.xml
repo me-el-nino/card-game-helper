@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    Android:layout_height="match_parent"
+    Android:layout_width="match_parent"
+    xmlns:Android="http://schemas.android.com/apk/res/android"
+    Android:orientation="vertical">
+
+    <Spinner
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:id="@+id/dropDownMenu"
+        Android:spinnerMode="dropdown"
+        Android:background="@color/material_grey_300"
+        Android:focusable="false" />
+
+    <EditText
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:inputType="textPersonName"
+        Android:ems="10"
+        Android:id="@+id/playerNamesInput"
+        Android:selectAllOnFocus="false"
+        Android:hint="@string/PlayerNameInputHint" />
+
+    <Button
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:text="@string/PlayerNameEnterText"
+        Android:id="@+id/playerNameEnter" />
+
+    <TextView
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:id="@+id/textView"
+        Android:visibility="visible" />
+
+    <ScrollView
+        Android:layout_width="fill_parent"
+        Android:layout_height="0dp"
+        Android:layout_weight="1"
+        Android:id="@+id/scrollView" >
+
+        <LinearLayout
+            Android:orientation="vertical"
+            Android:layout_width="match_parent"
+            Android:layout_height="wrap_content"
+            Android:id="@+id/scrollViewLayout">
+
+            <TextView
+                Android:layout_width="fill_parent"
+                Android:layout_height="wrap_content"
+                Android:text="@string/PlayersHeadline"
+                Android:id="@+id/PlayersListHeadline" />
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:text="@string/StartGameText"
+        Android:id="@+id/startGame" />
+
+    <EditText
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:inputType="number"
+        Android:id="@+id/pointsOrRoundsInput"
+        Android:hint="@string/RoundsInputHint" />
+
+    <RadioGroup
+        Android:layout_width="fill_parent"
+        Android:layout_height="wrap_content"
+        Android:orientation="vertical"
+        Android:id="@+id/winRequirements">
+
+        <RadioButton
+            Android:layout_width="match_parent"
+            Android:layout_height="wrap_content"
+            Android:text="@string/RoundsToReachText"
+            Android:id="@+id/winByRounds" />
+
+        <RadioButton
+            Android:layout_width="match_parent"
+            Android:layout_height="wrap_content"
+            Android:text="@string/PointsToReachText"
+            Android:id="@+id/winByPoints" />
+
+    </RadioGroup>
+
+    <CheckBox
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:text="@string/AllNeedToFinishText"
+        Android:id="@+id/allToFinish"
+        Android:visibility="invisible" />
+
+    <CheckBox
+        Android:layout_width="match_parent"
+        Android:layout_height="wrap_content"
+        Android:text="@string/CountToZero"
+        Android:id="@+id/countToZero"
+        Android:visibility="invisible" />
+
+</LinearLayout>

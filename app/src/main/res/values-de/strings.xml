@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AllNeedToFinishText">alle Spieler müssen die Punktzahl erreichen</string>
+    <string name="CalculatePositionsString">Positionen berechnen</string>
+    <string name="CountToZero">von angegebem Wert bis 0 spielen</string>
+    <string name="CustomGame">eigenes Spiel</string>
+    <string name="CountToZeroHint">Startpunktzahl eingeben</string>
+    <string name="EnterPointsBeginning">Punkte eingeben von\u0020</string>
+    <string name="EnterPointsString">eingegebene Punkte bestätigen</string>
+    <string name="Finished">beendet</string>
+    <string name="GameFinished">Spiel beendet</string>
+    <string name="NameDuplicateError">Spieler wurde schon hinzugefügt</string>
+    <string name="NameTooLongError">bitte maximal 10 Zeichen eingeben</string>
+    <string name="NotEnoughPlayersError">mindestens 1 Spieler nötig</string>
+    <string name="NumberInputError">positives Ziel eingeben</string>
+    <string name="PlayerIsNotAllowedToSwitchCards">nicht tauschen</string>
+    <string name="PlayerMustPlay">muss spielen</string>
+    <string name="PlayerNameEnterText">eingebenen Spieler hinzufügen</string>
+    <string name="PlayerNameInputHint">Spielername eingeben</string>
+    <string name="PlayersHeadline">Spieler: (abwählen zum löschen)</string>
+    <string name="PointsBeginning">Punkte:\u0020</string>
+    <string name="PointsInputHint">zu erreichende Punkte eingeben</string>
+    <string name="PointsReceived">erhaltene Punkte:\n(neueste zuerst)</string>
+    <string name="PointsToReachText">Spiel endet nach angegeber Punktzahl</string>
+    <string name="app_name">Zähler</string>
+    <string name="StartGameText">Spiel starten</string>
+    <string name="UndoLastInput">rückgängig</string>
+    <string name="RoundsToReachText">Spiel endet nach angegeber Anzahl Runden</string>
+    <string name="RoundsInputHint">zu erreichende Runden eingeben</string>
+</resources>
